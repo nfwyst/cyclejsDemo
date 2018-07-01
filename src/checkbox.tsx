@@ -6,7 +6,7 @@ import { Sources, Sinks } from './interfaces'
  * @param { interactionStream } sources : 用户的交互流
  * @return { screenStream } app 输出流
  */
-export function Main(sources: Sources): Sinks {
+export function Main(sources: any): any{
   // http 请求流
   const getRandomUser$ = sources.DOM.select('.get-random').events('click')
     .map(() => {
