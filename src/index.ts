@@ -4,13 +4,15 @@ import {makeHTTPDriver} from '@cycle/http'
 import {Component} from './interfaces'
 
 // import {App} from './app'
-import {Main} from './checkbox'
+// import {Main} from './checkbox'
+// import {counter} from './counter'
+import { bim } from './bim';
 
-const main: Component = Main
+const main: Component = bim
 
 const drivers = {
   DOM: makeDOMDriver('#app'),
-  HTTP: makeHTTPDriver()
+//  HTTP: makeHTTPDriver()
 }
 
 run(main, drivers)

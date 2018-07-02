@@ -10,6 +10,8 @@
     "@cycle/http": "^14.9.0",
     "@cycle/run": "3.3.0",
     "awesome-typescript-loader": "3.2.3",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "snabbdom-pragma": "^2.7.0",
     "typescript": "2.5.3",
     "xstream": "11.0.0"
   },
